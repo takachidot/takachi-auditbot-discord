@@ -1,0 +1,30 @@
+{
+  "name": "takachi-auditbot-discord",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Takachi",
+    "Discord",
+    "Audit log event"
+  ],
+  "author": {
+    "email": "yahyabey2401@proton.me",
+    "name": "Yahya"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takachidot/takachi-auditbot-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takachidot/takachi-auditbot-discord/issues"
+  },
+  "homepage": "https://github.com/takachidot/takachi-auditbot-discord#readme",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}

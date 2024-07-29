@@ -110,7 +110,7 @@ client.on("guildAuditLogEntryCreate", async (auditLogEntry) => {
   if (!logChannel) return;
 
   const details = [
-    `**Olay Türü:** ${action}`,
+    `**Olay Türü:** ${eventType}`,
     `**Hedef:** ${target?.name || "Bilinmeyen Hedef"}`,
     `**Değişiklikler:** ${changes.map((change) => `${change.key}: ${change.old} => ${change.new}`).join(", ") || "Yok"}`,
     `**Kullanıcı:** ${member?.user.tag || "Bilinmeyen Kullanıcı"}`,
